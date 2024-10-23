@@ -15,6 +15,9 @@ body{
     background-color: hsl(30, 38%, 92%);
     font-size: 14px;
     font-family: 'Fraunces', 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .card{
@@ -132,22 +135,18 @@ body{
     .bg_mobile {
     display: none;
      }
-     
+
      body{
-        position: relative;
-        padding: 10rem;
+        display: flex;
      }
 
      .card{
         width: 550px;
-        top: 0;
-        left: 0;
-        transform: translate(50%, 0%);
      }
      
     img{
-        object-fit: cover;
         width: 50%;
+        object-fit: cover;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
     }
